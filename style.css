@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Slab&display=swap');
+body{
+position: relative;
+width: 99%;
+height: 90vh;
+font-family: 'Itim', cursive;
+}
+.container{
+    position: absolute;
+    width: 1450px;
+    height: 650px;
+    background: #FFFFFF;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.logo{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.navbar{
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 30px;
+}
+.navbar ul{
+    text-decoration-style: none;
+    list-style: none;
+    width: 500px;
+    margin-top: 23px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.navbar ul a{
+    position: relative;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: large;
+    font-weight: 700;
+    padding-bottom: 4px;
+}
+a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: rgb(43, 226, 80);
+    transition: width 0.25s ease-out;
+  }
+a:hover::before {
+    width: 100%;
+}
+.image{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    margin-left: 890px;
+    margin-top: 80px;
+}
+.container h1{
+    color: blueviolet;
+    margin-top: 150px;
+    margin-left: 90px;
+    margin-bottom: 0;
+}
+.container p{
+    color: blueviolet;
+    margin-left: 80px;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.para{
+    display: inline-block;
+    width: 410px;
+}
+button{
+    margin-left: 90px;
+    display: flex;
+    position: absolute;
+    padding-top: 7px;
+    width: 100px;
+    height: 30px;
+    justify-content: center;
+    border-radius: 20px;
+    border: 0;
+    background: blueviolet;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+button:hover{
+    background: lightskyblue;
+}
+.container h2{
+    position: relative;
+    margin-left: 600px;
+    margin-top: 150px;
+    padding-bottom: 20px;
+    color: blueviolet;
+}
+h2::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 310px;
+    height: 3px;
+    background-color: rgb(43, 226, 83);
+}
